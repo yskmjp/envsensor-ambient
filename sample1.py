@@ -6,7 +6,7 @@ import time
 import datetime
 
 
-CHECK_SPAN = int(os.environ.get('CHECK_SPAN', '1'))
+CHECK_SPAN = int(os.environ.get('CHECK_SPAN', '10'))
 
 BLUETOOTH_DEVICEID = os.environ.get('BLUETOOTH_DEVICEID', 0)
 BLUETOOTH_DEVICE_ADDRESS = os.environ.get('BLUETOOTH_DEVICE_ADDRESS', None)
